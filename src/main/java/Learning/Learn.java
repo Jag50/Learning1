@@ -7,7 +7,7 @@ public class Learn {
     public static void main(String[] args) {
 
         int friends = 20;
-        friends = +1;
+        friends--;
 
         System.out.println(friends);
 
