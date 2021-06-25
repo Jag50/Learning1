@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class Learn {
 
-    public static void main(String[] args) {
+    public Integer countFriends() {
 
         int friends = 20;
-        friends--;
+        friends = friends + 6;
 
         System.out.println(friends);
+        return friends;
 
     }
 }
