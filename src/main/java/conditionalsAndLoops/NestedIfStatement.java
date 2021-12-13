@@ -1,9 +1,13 @@
 package conditionalsAndLoops;
 
+import java.util.Scanner;
+
 public class NestedIfStatement {
 
     public static void main(String[] args) {
-        int age = 25;
+
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
 
         if (age > 0) {
             if (age > 16) {
