@@ -17,7 +17,6 @@ public class Main {
         customer.age = age;
         customer.roomNumber = roomNumber;
         customer.saveCustomerInfo();
-
     }
 }
 
